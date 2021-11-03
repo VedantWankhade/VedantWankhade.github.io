@@ -13,6 +13,7 @@ header {
     background-image: url(./img/bg.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .horizontal-list {
@@ -79,4 +80,41 @@ header {
 .fab {
     color: white;
     margin: 10px;
+}
+
+
+#about-section {
+    height: auto;
+}
+
+#photo-container {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: -17vh;
+    position: relative;
+}
+
+#photo-container img {
+
+    height: 100%;
+    width: 100%;
+    border: 4px solid white;
+    box-shadow: 0 0 8px 8px white inset;
+    border-radius: 50%;
+}
+
+#about-container {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
 }
