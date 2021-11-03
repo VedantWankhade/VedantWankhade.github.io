@@ -43,7 +43,7 @@ header {
 
 .nav-list li a {
     text-decoration: none;
-    transition: color 0.5s, border-bottom 4s;
+    transition: color 0.5s, border 4s;
     color: white;
     padding: 5px;
 }
@@ -52,4 +52,31 @@ header {
     color: lightgrey;
     border: 1px solid white;
     padding: 4px;
+}
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#name-social-container h1 {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+}
+
+#social-icons-container i {
+    font-size: 1.2rem;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#social-icons-container i:hover {
+    color: lightgray;
+    box-shadow: 0 0 6px 2px;
+}
+
+.fab {
+    color: white;
+    margin: 10px;
 }
