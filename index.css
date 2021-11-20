@@ -10,7 +10,7 @@ body {
 
 header {
     height: 65vh;
-    background-image: url(./img/bg.jpg);
+    background-image: url(./assets/img/bg.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -142,4 +142,33 @@ section:nth-child(2n + 1) {
     color: #2857a4;
     font-size: 40px;
     font-weight: 400;
+}
+
+#skills-container {
+    width: 100%;
+}
+
+.skills-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.skills-list {
+    list-style: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.skills-list img {
+    width: 100px;
+}
+
+.skills-label {
+    color: gray;
+    font-size: xx-large;
 }
